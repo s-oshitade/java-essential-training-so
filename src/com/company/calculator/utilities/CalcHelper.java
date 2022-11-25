@@ -1,4 +1,4 @@
-package com.company.calculator;
+package com.company.calculator.utilities;
 
 public class CalcHelper {
     public static double addValues(double d1, double d2) {
