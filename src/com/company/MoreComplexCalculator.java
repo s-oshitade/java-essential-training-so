@@ -27,7 +27,7 @@ public class MoreComplexCalculator  {
         var operation = sc.nextLine();
 
         double result;
-        switch (operation) {
+        switch (operation) { //Good use case for switch statement.
             case "+":
                 result = d1 + d2;
                 break;
