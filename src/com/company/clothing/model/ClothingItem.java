@@ -1,6 +1,11 @@
 package com.company.clothing.model;
 
 public class ClothingItem {
+    public static final String SHIRT = "Shirt";
+    public static final String PANTS = "Pants";
+    public static final String SHOES = "Shoes";
+
+
     private String type;
     private String size;
     private double price;
@@ -9,6 +14,13 @@ public class ClothingItem {
 //    public ClothingItem() {
 //    }
 
+
+//    public ClothingItem(String type, String size, double price, int quantity) {
+//        this.type = type;
+//        this.size = size;
+//        this.price = price;
+//        this.quantity = quantity;
+//    }
 
     public ClothingItem(String type, String size, double price, int quantity) {
         this.type = type;
