@@ -28,16 +28,16 @@ public class Main {
         double result;
         switch (operation) { //Good use case for switch statement.
             case "+":
-                result = d1 + d2;
+                result = CalcHelper.addValues(d1, d2);
                 break;
             case "-":
-                result = d1 - d2;
+                result = CalcHelper.subtractValues(d1, d2);
                 break;
             case "*":
-                result = d1 * d2;
+                result = CalcHelper.multiplyValues(d1, d2);
                 break;
             case "/":
-                result = d1 / d2;
+                result = CalcHelper.divideValues(d1, d2);
                 break;
             default:
                 System.out.println("You didn't choose a valid operation");
